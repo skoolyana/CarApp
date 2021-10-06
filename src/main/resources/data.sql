@@ -40,3 +40,14 @@ values
  (8,
  'aced0005737200226f72672e737072696e676672616d65776f726b2e646174612e67656f2e506f696e7431b9e90ef11a4006020002440001784400017978704023000000000000404bfa1cac083127', now(), now(), false, 'ONLINE',
 'driver08pw', 'driver08',0);
+
+
+-- Data for Cars
+insert into car (id, date_created, license_plate, seat_count, convertible, rating, engine_type, deleted, car_status, manufacturer,version)
+values
+(1, now(), '12311-ax', 4, TRUE, 2, 'GAS', FALSE, 'FREE','Skoda',0), 
+(2, now(), '125-cf', 5, FALSE, 3, 'ELECTRIC', FALSE, 'FREE','Fiat',0),
+(4, now(), '125-54-c', 2, TRUE, 3, 'GAS', FALSE, 'FREE','Ford',0),
+(5, now(), '985-54-c', 3, TRUE, 5, 'HYBRID', FALSE, 'FREE','BMW',0),
+(6, now(), '111-44-s', 4, TRUE, 5, 'GAS', FALSE, 'IN_USE','AUDI',0),
+(7, now(), '331-66-sx', 4, TRUE, 5, 'ELECTRIC', FALSE, 'IN_USE','VolksWagen',0);
